@@ -3,7 +3,7 @@ const startBtnGame = document.getElementById("start-button");
 const ROCK = "ROCK";
 const PAPER = "PAPER";
 const SCISSORS = "SCISSORS";
-const DEFAULT_USER = "ROCK";
+const DEFAULT_USER = "";
 let gameisrunning = false;
 //user choice for game
 const getPlayerChoice = function () {

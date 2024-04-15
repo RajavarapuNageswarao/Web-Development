@@ -1,0 +1,15 @@
+article {
+  text-align: center;
+}
+h1 {
+  color: rgb(255, 196, 112);
+}
+div {
+  color: rgb(255, 196, 112);
+  background-color: rgb(71, 147, 175);
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  border: 10px solid red;
+  margin-bottom: 10px;
+}

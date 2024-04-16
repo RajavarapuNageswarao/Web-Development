@@ -1,0 +1,52 @@
+what is VBCS:
+vbcs is visual builder cloud service is to create web and host applications 
+without any extensive coding knowledge and development expertise.
+
+why used VBCS:
+vbcs is you can access to powerful visual app tools like components,drag-and-drop
+actions and more over user interface. you can deploy anywhere in cloud.
+
+difference between vbcs and apex:
+-->vbcs is a oracle JET(javascript extension toolkit) is to provide development
+applications development.
+javascript has become de-facto(extensive workflow) standres for application development.
+-->Apex is pl/sql based development tool but recent enhecement 
+oracle makes javascript in apex now apex is oracle server side code
+
+what is business objects:
+BO is resource such as invoice and purchase order similar to database table.
+it has fields hold the data for your application like a database table.
+here business objects provides stuctuare for data used with business processes.
+then business objects stored in database.
+
+what are languages are used in VBCS:
+html and css and javascript
+html->components,templetes,stuctuare
+css->styling,responsive web design.
+javascript->funtionality purpose.
+
+what is action chains and action:
+Action chains simplfy the coordination of asynchronous activities.
+a single event may simultneously trigger multiple action chains.
+for example:
+------>the page enters event may trigger multiple data fetch action chains simultneously.This task is perform is a specific function that is called action.
+here some action chains:
+onValueChange,vbEnter.
+
+what is event and event listeners:
+1.event and eventlisteners are interactive and dynamic user interface.
+2.events are like actions here the example by clicking a button,
+   submitting a form,resizing a window.
+3.events can be triggered by user interactions or by changes in the application's state.
+4.Event listeners are functions or procedures that are programmed to respond to specific events
+5.For example, you might have a button in your application that, when clicked, should perform a specific action, such as saving data or navigating to another page.
+
+what is service connection and q parameter:
+1.To access data from some external application we can use rest services. 
+2.In Oracle Visual Builder the Rest APIs are consumed using Service Connections. ->Service Connections in Oracle Visual Builder are one of the building blocks 
+  that help to communicate with external applications
+3."q" parameter in a service connection in Oracle Visual Builder is used to specify a query string that filters the data returned from the service.
+
+variables:
+Variables are named pieces of information that hold business state.
+when bound to a component, can provide data values retrieved from a REST endpoint and display them to your users.

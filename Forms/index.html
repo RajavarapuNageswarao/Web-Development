@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <title>Forms project</title>
+  </head>
+  <body>
+    <!-- Form is collect user input -->
+    <form action="/action_page.php">
+        <fieldset>
+          <center>
+          <h1>This is user information:</h1>
+          </center>
+          <hr />
+          <details>
+            <label for="Fname">First-Name :</label>
+            <input type="text" id="Fname" name="Fname" /><br />
+            <br />
+            <label for="Lname">Last-Name :</label>
+            <input type="text" id="Lname" name="Lname" /><br /><br />
+            <label for="Phone">PhoneNumber : </label>
+            <input type="text" id="Phone" name="Phone" /><br /><br />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" /><br /><br />
+            <h1>Select The Skillset:</h1>
+            <label for="lan">Choose Skills</label>
+            <select name="Skills" id="Skills" multiple>
+              <option value="Java" selected>Java</option>
+              <option value="JavaScript" selected>JavaScript</option>
+              <option value="C#" selected>C#</option>
+              <option value="Oracle" selected>Oracle</option>
+            </select>
+            <input type="submit" />
+          </details>
+        </fieldset>
+      </center>
+    </form>
+    <form>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+    </form>
+  </body>
+</html>

@@ -50,3 +50,7 @@ what is service connection and q parameter:
 variables:
 Variables are named pieces of information that hold business state.
 when bound to a component, can provide data values retrieved from a REST endpoint and display them to your users.
+
+Ojet Commands For Build An application:
+npm install -g @oracle/ojet-cli
+ojet create <app name>(App name) --template=navdrawer

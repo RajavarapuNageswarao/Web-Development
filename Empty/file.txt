@@ -1,0 +1,49 @@
+Array Methods
+Filtering Students Based on Age Given the students array from 0, write a function that filters out students who are older than 25 years old.
+Calculating Total Paid Amount Write a function that calculates the total amount paid by all students in the students array.
+Finding Courses Offered Create a function that returns a list of unique courses offered by all students in the students array.
+Chaining Array Methods Starting with the numbers array from 1, write a program that filters out odd numbers, squares each number, and then sums them up.
+Debugging Array References Explain why modifying modifiedArray in 1 affects originalArray. Then, write a piece of code that demonstrates creating a copy of an array using both the slice() method and the spread syntax.
+Converting Array to Object Given the array ['John', 'Jane', 'Sam'], use the Spread Operator to convert it into an object where each name is a property of the object. What will be the output?
+Summarizing Student Information Write a function that takes the students array from 0 and converts it into an object where each student's ID is a key, and the value is an object containing the student's full name and age.
+Handling Large Arrays Discuss potential performance issues when converting very large arrays into objects using the methods described in 4. Provide a scenario where this might be problematic.
+Complex Array Structures Consider an array of objects where each object represents a book, including title, author, and publication year. Write a function that converts this array into an object where each key is a book's title, and the value is an object containing the book's details.
+Using Object.assign() Demonstrate how to use Object.assign() to convert an array into an object, similar to the example provided in 4 but using a different array.
+Sorting a List of Numbers Given an array of numbers, write a function that sorts the array in ascending order. How would you modify the function to sort the array in descending order?
+Removing Duplicate Values Write a function that removes duplicate values from an array. How would you ensure that the original array remains unchanged?
+Flattening Nested Arrays Consider an array that contains other arrays. Write a function that flattens this nested array into a single-level array.
+Transforming Strings into an Array Write a function that takes a string as input and transforms it into an array of characters.
+Finding the Longest Word Given an array of words, write a function that finds and returns the longest word in the array.
+Creating a User Profile Object Write a function that creates a user profile object with properties such as name, email, and age.
+Updating Object Properties Given an object representing a person, write a function that updates the person's age property.
+Deleting Object Properties Write a function that deletes a specified property from an object.
+Iterating Over Object Properties Write a function that iterates over an object's properties and logs each key-value pair.
+Comparing Two Objects Write a function that compares two objects and returns true if they are identical and false otherwise.
+Grouping Items by Category Given an array of items, each represented as an object with name and category properties, write a function that groups these items by category.
+Counting Occurrences Write a function that counts the occurrences of each item in an array of objects based on a specified property.
+Filtering Objects Based on Property Value Given an array of objects, write a function that filters the array to include only objects whose age property is greater than 21.
+Mapping Objects to New Structure Write a function that takes an array of objects and maps each object to a new structure, transforming the data as needed.
+Reducing an Array of Objects Given an array of objects, write a function that reduces the array to a single object, summing up numerical properties across all objects.
+Create an Empty Array: How do you create an empty array in JavaScript? Provide two ways to achieve this.
+Loop Through an Array: Explain how you can loop through an array in JavaScript. Mention at least two methods to accomplish this task.
+Flatten Nested Array: Given a nested array, write a function to flatten it into a single level array. Consider using the .flat() method and discuss any potential issues with its usage.
+Remove Duplicates: How would you remove duplicate values from an array in JavaScript? Provide a code snippet demonstrating this operation.
+Sum Elements of an Array: Use the reduce() method to sum all elements in an array. Discuss why this method is suitable for this task.
+Intersection of Two Arrays: Write a function to find the intersection of two arrays, meaning the elements present in both arrays. Use the filter() and includes() methods to solve this problem.
+Double Elements of an Array: Without using an extra variable, double the elements of an array. Suggest a method that modifies the original array.
+Extract Unique Values: How can you extract and print the unique values from an array? Provide a concise way to achieve this.
+Array Length After Assignment: Given an array initialized with certain elements, what happens to its length after assigning a value to an index outside the current length of the array? Provide a code example to demonstrate this behavior.
+Empty Array by Setting Length: Describe how setting the length property of an array to 0 clears all its elements. Provide a code snippet to illustrate this concept.
+
+=================================filter method questions=============================
+
+Filter Even Numbers: Given an array of numbers, write a function that filters out only the even numbers.
+Filter Strings Longer Than 5 Characters: Given an array of strings, write a function that filters out strings longer than 5 characters.
+Filter Positive Numbers: Given an array of numbers, write a function that filters out only the positive numbers.
+Filter Users Over 18: Given an array of user objects where each object has a name and age property, write a function that filters out users who are over 18 years old.
+Filter Items Under $100: Given an array of objects representing products with name and price properties, write a function that filters out products priced under $100.
+Filter True Values: Given an array of mixed types (numbers, strings, booleans, etc.), write a function that filters out only the true values.
+Filter Out Null or Undefined Values: Given an array that may contain null, undefined, or other values, write a function that filters out these values.
+Filter Employees with Salary Above Average: Given an array of employee objects with name and salary properties, write a function that filters out employees whose salary is above the average salary of all employees.
+Filter Non-empty Strings: Given an array of strings, write a function that filters out empty strings.
+Filter Objects with Specific Property Value: Given an array of objects, write a function that filters out objects that do not have a specific property set to a particular value.

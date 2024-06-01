@@ -47,3 +47,78 @@ at	             array.at(index)
 copyWithin	     array.copyWithin(target, start, end)
 flat	         array.flat(depth)
 flatMap	         array.flatMap(callback(currentValue, index, array), thisArg)
+
+
+<<<<<<<<=================functions syntaxes all =====================>>>>>>>
+
+//Normal function
+
+// Defining the function simple function
+function sum(num1, num2) {   ===>function delcaration
+  return num1 + num2;
+}
+
+// Calling the function:
+sum(3, 6); // 9
+
+// Named function
+function rocketToMars() {
+  return 'BOOM!';
+}
+
+// Anonymous function
+const rocketToMars = function() {
+  return 'BOOM!';
+}
+
+>>>>>with two arguments
+const sum = (param1, param2) => { 
+  return param1 + param2; 
+}; 
+console.log(sum(2,5)); // => 7 
+
+>>>>>with no arguments
+const printHello = () => { 
+  console.log('hello'); 
+}; 
+printHello(); // => hello
+
+
+>>>>>>with single arguments
+const checkWeight = weight => { 
+  console.log(`Weight : ${weight}`); 
+}; 
+checkWeight(25); // => Weight : 25 
+
+>>>>>return keyword 
+// With return
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
+// The function doesn't output the sum
+function sum(num1, num2) {
+  num1 + num2;
+}
+
+>>>>calling functions
+// Defining the function
+function sum(num1, num2) {
+  return num1 + num2;
+}
+
+// Calling the function
+sum(2, 4); // 6
+
+>>>>>>concise arrow functioons
+const multiply = (a, b) => a * b; 
+// => 60 
+console.log(multiply(2, 30)); 
+
+
+>>>>>>function expression
+
+function add(){
+    return "hello;
+}
+

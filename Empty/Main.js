@@ -88,10 +88,86 @@ const namesArray = ["John", "Jane", "Sam"];
 //   namesObject[index] = name;
 // });
 // const obj = {};
-const namesObject = namesArray.reduce((obj, name, index) => {
-  obj[index] = name;
-  return obj;
-}, {});
-console.log(namesObject);
+// const namesObject = namesArray.reduce((obj, name, index) => {
+//   obj[index] = name;
+//   return obj;
+// }, {});
+// console.log(namesObject);
+
+// const referenceArray = namesArray.reduce((obj, item, index) => {
+//   obj[index] = item;
+//   return obj;
+// }, {});
+// console.log(referenceArray);
+const emptyObject = {};
+namesArray.forEach((name, index) => {
+  emptyObject[index] = name;
+});
+console.log(emptyObject);
 
 //======================================================//
+const students = [
+  { id: 1, fullName: "John Doe", age: 20 },
+  { id: 2, fullName: "Jane Smith", age: 22 },
+  { id: 3, fullName: "Sam Johnson", age: 21 },
+];
+
+function convertArrayToObject(studentsArray) {
+  const emptyObject = {};
+  studentsArray.forEach((student) => {
+    emptyObject[student.id] = {
+      fullName: student.fullName,
+      age: student.age,
+    };
+  });
+  return emptyObject; // Moved the return statement outside of the forEach loop
+}
+
+const outputArray = convertArrayToObject(students);
+console.log(outputArray);
+
+//=========================================================//
+const books = [
+  { title: "Book1", author: "Author1", publicationYear: 2001 },
+
+  { title: "Book2", author: "Author2", publicationYear: 2005 },
+
+  { title: "Book3", author: "Author3", publicationYear: 2010 },
+];
+
+// function convertBooksArrayToObject(booksElements) {
+//   const bookObject = {};
+//   booksElements.forEach((book) => {
+//     bookObject[book.title] = {
+//       author: book.author,
+//       publicationYear: book.publicationYear,
+//     };
+//   });
+
+//   return bookObject;
+// }
+
+// const bookOutput = convertBooksArrayToObject(books);
+// console.log(bookOutput);
+
+const objetArray = Object.assign(
+  {},
+  ...books.map((book) => ({
+    [book.title]: {
+      author: book.author,
+      publicationYear: book.publicationYear,
+    },
+  }))
+);
+
+console.log(objetArray);
+
+///===========================================///
+
+const sortNumbers = [1, 2, 3, 7, 4, 5, 6];
+
+function sortFunction(sortNumbers) {
+  return sortNumbers.sort((a, b) => a - b);
+}
+const asendingOrder = sortFunction(sortNumbers);
+console.log(asendingOrder);
